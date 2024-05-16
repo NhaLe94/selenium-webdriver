@@ -85,6 +85,7 @@ public class Topic_14_Popup {
         driver.findElement(By.xpath("//a[text()='Create new account']")).click();
         By registerPopup = By.xpath("//div[text()='Sign Up']/parent::div/parent::div");
         Assert.assertTrue(driver.findElement(registerPopup).isDisplayed());
+        sleepSeconds(2);
 
         driver.findElement(By.xpath("//div[text()='Sign Up']/parent::div/preceding-sibling::img")).click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
