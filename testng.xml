@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Selenium WebDriver">
-    <groups>
-        <run>
-            <include name="category"/>
-        </run>
 
-    </groups>
-    <test verbose="2" preserve-order="true" name="Run on Chrome browser">
-        <packages>
-            <package name="categories"></package>
-            <package name="product"></package>
-            <package name="orders"></package>
+    <test name="Run on Firefox browser">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="version" value="121"></parameter>
+        <classes>
+            <class name="testng.Topic_09_Parameter"></class>
 
-        </packages>
-<!--        <classes>-->
-<!--            <class name=""></class>-->
+        </classes>
+    </test>
 
-<!--        </classes>-->
+    <test name="Run on Chrome browser">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="version" value="122"></parameter>
+        <classes>
+            <class name="testng.Topic_09_Parameter"></class>
+
+        </classes>
+    </test>
+
+    <test name="Run on Edge browser">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="version" value="123"></parameter>
+        <classes>
+            <class name="testng.Topic_09_Parameter"></class>
+
+        </classes>
     </test>
 </suite>
