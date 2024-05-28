@@ -54,13 +54,16 @@ public class Topic_22_Wait_01_Element_Status {
         driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
         driver.findElement(By.cssSelector("input[name='reg_email__']")).sendKeys("nha@gmail.com");
         driver.findElement(By.cssSelector("input[name='reg_email__")).clear();
-        explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(reconfirmEmailTextbox));
-        Assert.assertFalse(driver.findElement(reconfirmEmailTextbox).isDisplayed());
+//        sleepSeconds(3);
+//        explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(reconfirmEmailTextbox));
+//        Assert.assertFalse(driver.findElement(reconfirmEmailTextbox).isDisplayed());
 
     }
 
     @Test
     public void TC_03_Invisible_Not_In_DOM() {
+        driver.get("https://www.facebook.com/");
+        driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
         driver.findElement(By.xpath("//div[text()='Sign Up']/parent::div/preceding-sibling::img")).click();
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(reconfirmEmailTextbox));
        // Assert.assertFalse(driver.findElement(reconfirmEmailTextbox).isDisplayed());

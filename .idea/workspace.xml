@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Wait_01_Element_Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserDrivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/browserDrivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.20.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.21.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Wait_01_Element_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Wait_01_Element_Status.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,8 @@
     "TestNG.Topic_01_Check_Enviornment.executor": "Run",
     "TestNG.Topic_10_Custom_Dropdown.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible.executor": "Run",
+    "TestNG.Topic_22_Wait_01_Element_Status.TC_02_Invisible_In_DOM.executor": "Run",
+    "TestNG.Topic_22_Wait_01_Element_Status.TC_03_Invisible_Not_In_DOM.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/browserDrivers",
@@ -61,27 +60,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible">
-    <configuration name="selenium-server-4.21.0.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/libraries/selenium-server-4.21.0.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Topic_00_Template" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_00_Template" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic_01_Check_Enviornment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
@@ -134,13 +112,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_22_Wait_01_Element_Status.TC_02_Invisible_In_DOM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Wait_01_Element_Status" />
+      <option name="METHOD_NAME" value="TC_02_Invisible_In_DOM" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Wait_01_Element_Status.TC_03_Invisible_Not_In_DOM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Wait_01_Element_Status" />
+      <option name="METHOD_NAME" value="TC_03_Invisible_Not_In_DOM" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible" />
+        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_03_Invisible_Not_In_DOM" />
+        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_02_Invisible_In_DOM" />
         <item itemvalue="TestNG.Topic_10_Custom_Dropdown" />
         <item itemvalue="TestNG.Topic_01_Check_Enviornment" />
-        <item itemvalue="JAR Application.selenium-server-4.21.0.jar" />
-        <item itemvalue="TestNG.Topic_00_Template" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +167,30 @@
       <option name="presentableId" value="Default" />
       <updated>1716882338339</updated>
     </task>
+    <task id="LOCAL-00001" summary="add topic 22">
+      <option name="closed" value="true" />
+      <created>1716882997426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716882997426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add topic 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="add topic 22" />
   </component>
 </project>
