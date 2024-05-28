@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca3a7e3-5cbc-4db8-bae3-ef314cc5062d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_08_DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_09_Parameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/selenium-webdriver.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Wait_01_Element_Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserDrivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/browserDrivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.20.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.21.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,34 +19,63 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2go4lrLQoz6slzIB6iKaXuhHWmX" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NhaLe94"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NhaLe94/selenium-webdriver",
+    "accountId": "baaca8ba-6e14-4136-8469-d650bf773ef5"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2h5SErURJfUpp0ATfcWZhPt2yAg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JAR Application.selenium-server-4.21.0.jar.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/testng.xml.executor": "Run",
+    "TestNG.Topic_00_Template.executor": "Run",
     "TestNG.Topic_01_Check_Enviornment.executor": "Run",
-    "TestNG.Topic_08_DataProvider.executor": "Run",
+    "TestNG.Topic_10_Custom_Dropdown.executor": "Run",
+    "TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/browserDrivers",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="testng" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\browserDrivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/testng.xml">
-    <configuration name="C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible">
+    <configuration name="selenium-server-4.21.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libraries/selenium-server-4.21.0.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Topic_00_Template" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_00_Template" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -72,17 +99,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_08_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_10_Custom_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testng.*" />
+          <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.Topic_08_DataProvider" />
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_10_Custom_Dropdown" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Wait_01_Element_Status.TC_01_Visible" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Wait_01_Element_Status" />
+      <option name="METHOD_NAME" value="TC_01_Visible" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -91,20 +136,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/testng.xml" />
-        <item itemvalue="TestNG.Topic_08_DataProvider" />
+        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible" />
+        <item itemvalue="TestNG.Topic_10_Custom_Dropdown" />
         <item itemvalue="TestNG.Topic_01_Check_Enviornment" />
+        <item itemvalue="JAR Application.selenium-server-4.21.0.jar" />
+        <item itemvalue="TestNG.Topic_00_Template" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ca3a7e3-5cbc-4db8-bae3-ef314cc5062d" name="Changes" comment="" />
-      <created>1716350756001</created>
+      <changelist id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="" />
+      <created>1716882338339</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716350756001</updated>
+      <updated>1716882338339</updated>
     </task>
     <servers />
   </component>
