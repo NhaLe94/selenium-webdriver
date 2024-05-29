@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 22">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Wait_01_Element_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Wait_01_Element_Status.java" afterDir="false" />
     </list>
@@ -16,21 +17,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NhaLe94"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NhaLe94&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NhaLe94/selenium-webdriver",
-    "accountId": "baaca8ba-6e14-4136-8469-d650bf773ef5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NhaLe94/selenium-webdriver&quot;,
+    &quot;accountId&quot;: &quot;baaca8ba-6e14-4136-8469-d650bf773ef5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2h5SErURJfUpp0ATfcWZhPt2yAg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,15 +44,18 @@
     "TestNG.Topic_00_Template.executor": "Run",
     "TestNG.Topic_01_Check_Enviornment.executor": "Run",
     "TestNG.Topic_10_Custom_Dropdown.executor": "Run",
+    "TestNG.Topic_12_Alert.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_02_Invisible_In_DOM.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_03_Invisible_Not_In_DOM.executor": "Run",
+    "TestNG.Topic_22_Wait_01_Element_Status.TC_04_Presence.executor": "Run",
+    "TestNG.Topic_22_Wait_01_Element_Status.TC_05_Staleness.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/browserDrivers",
+    "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/libraries",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,41 +63,7 @@
       <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\browserDrivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible">
-    <configuration name="Topic_01_Check_Enviornment" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Check_Enviornment" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_10_Custom_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_10_Custom_Dropdown" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_22_Wait_01_Element_Status.TC_05_Staleness">
     <configuration name="Topic_22_Wait_01_Element_Status.TC_01_Visible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
@@ -148,13 +118,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_22_Wait_01_Element_Status.TC_04_Presence" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Wait_01_Element_Status" />
+      <option name="METHOD_NAME" value="TC_04_Presence" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Wait_01_Element_Status.TC_05_Staleness" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Wait_01_Element_Status" />
+      <option name="METHOD_NAME" value="TC_05_Staleness" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible" />
+        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_05_Staleness" />
+        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_04_Presence" />
         <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_03_Invisible_Not_In_DOM" />
         <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_02_Invisible_In_DOM" />
-        <item itemvalue="TestNG.Topic_10_Custom_Dropdown" />
-        <item itemvalue="TestNG.Topic_01_Check_Enviornment" />
+        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716882997426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add topic 22">
+      <option name="closed" value="true" />
+      <created>1716884016939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716884016939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
