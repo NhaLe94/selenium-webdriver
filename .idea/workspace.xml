@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add tcs 4,5 for topic 22">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Find_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_ImplicitWait.java" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 22, 23">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_24_Wait_Explicit_01_Knowledge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_25_Wait_Expicit_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_26_Wait_Expicit_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/cat-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/cat-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/cat-03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/webdriver/Topic_22_Wait_01_Element_Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/webdriver/Topic_22_Wait_01_Element_Status.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,95 +57,29 @@
     "TestNG.Topic_22_Wait_01_Element_Status.TC_04_Presence.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_05_Staleness.executor": "Run",
     "TestNG.Topic_23_ImplicitWait.executor": "Run",
+    "TestNG.Topic_25_Wait_Expicit_02.TC_01_Equal_5_Second.executor": "Run",
+    "TestNG.Topic_25_Wait_Expicit_02.executor": "Run",
+    "TestNG.Topic_26_Wait_Expicit_03.TC_01_AjaxLoading.executor": "Run",
+    "TestNG.Topic_26_Wait_Expicit_03.TC_02_Upload_File.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/libraries",
+    "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/uploadFiles",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\uploadFiles" />
       <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\browserDrivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_23_ImplicitWait">
-    <configuration name="Topic_22_Find_Element.TC_01_FindElement" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Find_Element" />
-      <option name="METHOD_NAME" value="TC_01_FindElement" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_22_Find_Element.TC_02_FindElements" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Find_Element" />
-      <option name="METHOD_NAME" value="TC_02_FindElements" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_22_Wait_01_Element_Status.TC_04_Presence" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Wait_01_Element_Status" />
-      <option name="METHOD_NAME" value="TC_04_Presence" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_22_Wait_01_Element_Status.TC_05_Staleness" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Wait_01_Element_Status" />
-      <option name="METHOD_NAME" value="TC_05_Staleness" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_26_Wait_Expicit_03.TC_02_Upload_File">
     <configuration name="Topic_23_ImplicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
@@ -160,13 +97,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_25_Wait_Expicit_02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Wait_Expicit_02" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_25_Wait_Expicit_02.TC_01_Equal_5_Second" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Wait_Expicit_02" />
+      <option name="METHOD_NAME" value="TC_01_Equal_5_Second" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_26_Wait_Expicit_03.TC_01_AjaxLoading" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_26_Wait_Expicit_03" />
+      <option name="METHOD_NAME" value="TC_01_AjaxLoading" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_26_Wait_Expicit_03.TC_02_Upload_File" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_26_Wait_Expicit_03" />
+      <option name="METHOD_NAME" value="TC_02_Upload_File" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_26_Wait_Expicit_03.TC_02_Upload_File" />
+        <item itemvalue="TestNG.Topic_26_Wait_Expicit_03.TC_01_AjaxLoading" />
+        <item itemvalue="TestNG.Topic_25_Wait_Expicit_02" />
+        <item itemvalue="TestNG.Topic_25_Wait_Expicit_02.TC_01_Equal_5_Second" />
         <item itemvalue="TestNG.Topic_23_ImplicitWait" />
-        <item itemvalue="TestNG.Topic_22_Find_Element.TC_02_FindElements" />
-        <item itemvalue="TestNG.Topic_22_Find_Element.TC_01_FindElement" />
-        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_05_Staleness" />
-        <item itemvalue="TestNG.Topic_22_Wait_01_Element_Status.TC_04_Presence" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716977613822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add topic 22, 23">
+      <option name="closed" value="true" />
+      <created>1717059549179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717059549179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add topic 22" />
     <MESSAGE value="add tcs 4,5 for topic 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tcs 4,5 for topic 22" />
+    <MESSAGE value="add topic 22, 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="add topic 22, 23" />
   </component>
 </project>
