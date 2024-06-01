@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic wait" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 22">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_27_Mix_Implicit_Explicit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,9 @@
     &quot;accountId&quot;: &quot;baaca8ba-6e14-4136-8469-d650bf773ef5&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -36,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JAR Application.selenium-server-4.21.0.jar.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.Topic_00_Template.executor": "Run",
     "TestNG.Topic_01_Check_Enviornment.executor": "Run",
@@ -48,11 +55,17 @@
     "TestNG.Topic_22_Wait_01_Element_Status.TC_03_Invisible_Not_In_DOM.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_04_Presence.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_05_Staleness.executor": "Run",
+    "TestNG.Topic_23_ImplicitWait.TC_01_Equal_5_Second.executor": "Run",
     "TestNG.Topic_23_ImplicitWait.executor": "Run",
     "TestNG.Topic_25_Wait_Expicit_02.TC_01_Equal_5_Second.executor": "Run",
     "TestNG.Topic_25_Wait_Expicit_02.executor": "Run",
     "TestNG.Topic_26_Wait_Expicit_03.TC_01_AjaxLoading.executor": "Run",
     "TestNG.Topic_26_Wait_Expicit_03.TC_02_Upload_File.executor": "Run",
+    "TestNG.Topic_27_Mix_Implicit_Explicit.TC_01_Only_Implicit_Found.executor": "Run",
+    "TestNG.Topic_27_Mix_Implicit_Explicit.TC_02_Only_Implicit_Not_Found.executor": "Run",
+    "TestNG.Topic_27_Mix_Implicit_Explicit.TC_03_Only_Explicit_Found.executor": "Run",
+    "TestNG.Topic_27_Mix_Implicit_Explicit.TC_04_Only_Explicit_Not_Found.executor": "Run",
+    "TestNG.Topic_27_Mix_Implicit_Explicit.TC_05_Mix.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/uploadFiles",
@@ -71,8 +84,8 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_26_Wait_Expicit_03.TC_02_Upload_File">
-    <configuration name="Topic_23_ImplicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_27_Mix_Implicit_Explicit.TC_05_Mix">
+    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_01_Only_Implicit_Found" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -81,42 +94,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_ImplicitWait" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_25_Wait_Expicit_02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Wait_Expicit_02" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_25_Wait_Expicit_02.TC_01_Equal_5_Second" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Wait_Expicit_02" />
-      <option name="METHOD_NAME" value="TC_01_Equal_5_Second" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
+      <option name="METHOD_NAME" value="TC_01_Only_Implicit_Found" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_26_Wait_Expicit_03.TC_01_AjaxLoading" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_02_Only_Implicit_Not_Found" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +112,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_26_Wait_Expicit_03" />
-      <option name="METHOD_NAME" value="TC_01_AjaxLoading" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
+      <option name="METHOD_NAME" value="TC_02_Only_Implicit_Not_Found" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_26_Wait_Expicit_03.TC_02_Upload_File" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_03_Only_Explicit_Found" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +130,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_26_Wait_Expicit_03" />
-      <option name="METHOD_NAME" value="TC_02_Upload_File" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
+      <option name="METHOD_NAME" value="TC_03_Only_Explicit_Found" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_04_Only_Explicit_Not_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
+      <option name="METHOD_NAME" value="TC_04_Only_Explicit_Not_Found" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_05_Mix" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
+      <option name="METHOD_NAME" value="TC_05_Mix" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,13 +177,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_26_Wait_Expicit_03.TC_02_Upload_File" />
-        <item itemvalue="TestNG.Topic_26_Wait_Expicit_03.TC_01_AjaxLoading" />
-        <item itemvalue="TestNG.Topic_25_Wait_Expicit_02" />
-        <item itemvalue="TestNG.Topic_25_Wait_Expicit_02.TC_01_Equal_5_Second" />
-        <item itemvalue="TestNG.Topic_23_ImplicitWait" />
+        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_05_Mix" />
+        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_04_Only_Explicit_Not_Found" />
+        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_03_Only_Explicit_Found" />
+        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_02_Only_Implicit_Not_Found" />
+        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_01_Only_Implicit_Found" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
