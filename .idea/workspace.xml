@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 22">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_27_Mix_Implicit_Explicit.java" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic wait">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_17_Fram_Iframe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,10 @@
     "TestNG.Topic_01_Check_Enviornment.executor": "Run",
     "TestNG.Topic_10_Custom_Dropdown.executor": "Run",
     "TestNG.Topic_12_Alert.executor": "Run",
+    "TestNG.Topic_17_Fram_Iframe.TC_01_Example_With_Single_Iframe.executor": "Run",
+    "TestNG.Topic_17_Fram_Iframe.TC_01_Url.executor": "Run",
+    "TestNG.Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe.executor": "Run",
+    "TestNG.Topic_17_Fram_Iframe.TC_02_Logo.executor": "Run",
     "TestNG.Topic_22_Find_Element.TC_01_FindElement.executor": "Run",
     "TestNG.Topic_22_Find_Element.TC_02_FindElements.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible.executor": "Run",
@@ -84,8 +88,8 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_27_Mix_Implicit_Explicit.TC_05_Mix">
-    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_01_Only_Implicit_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe">
+    <configuration name="Topic_17_Fram_Iframe.TC_01_Example_With_Single_Iframe" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +98,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
-      <option name="METHOD_NAME" value="TC_01_Only_Implicit_Found" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Fram_Iframe" />
+      <option name="METHOD_NAME" value="TC_01_Example_With_Single_Iframe" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_02_Only_Implicit_Not_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_17_Fram_Iframe.TC_01_Url" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
-      <option name="METHOD_NAME" value="TC_02_Only_Implicit_Not_Found" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Fram_Iframe" />
+      <option name="METHOD_NAME" value="TC_01_Url" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_03_Only_Explicit_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
-      <option name="METHOD_NAME" value="TC_03_Only_Explicit_Found" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Fram_Iframe" />
+      <option name="METHOD_NAME" value="TC_02_Example_With_Multiple_Iframe" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_04_Only_Explicit_Not_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_17_Fram_Iframe.TC_02_Logo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +152,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
-      <option name="METHOD_NAME" value="TC_04_Only_Explicit_Not_Found" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Fram_Iframe" />
+      <option name="METHOD_NAME" value="TC_02_Logo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -177,20 +181,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe" />
+        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_01_Example_With_Single_Iframe" />
+        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_01_Url" />
+        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_02_Logo" />
         <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_05_Mix" />
-        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_04_Only_Explicit_Not_Found" />
-        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_03_Only_Explicit_Found" />
-        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_02_Only_Implicit_Not_Found" />
-        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_01_Only_Implicit_Found" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
