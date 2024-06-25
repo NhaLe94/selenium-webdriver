@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic wait">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_17_Fram_Iframe.java" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 17 iframe">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_18_Handle_Windows_Tab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/webdriver/Topic_17_Fram_Iframe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/webdriver/Topic_17_Fram_Iframe.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,9 @@
     "TestNG.Topic_17_Fram_Iframe.TC_01_Url.executor": "Run",
     "TestNG.Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe.executor": "Run",
     "TestNG.Topic_17_Fram_Iframe.TC_02_Logo.executor": "Run",
+    "TestNG.Topic_18_Handle_Windows_Tab.TC_01_Basic_Form.executor": "Run",
+    "TestNG.Topic_18_Handle_Windows_Tab.TC_03_Form.executor": "Run",
+    "TestNG.Topic_18_Handle_Windows_Tab.TC_03_SwitchToWindowTab.executor": "Run",
     "TestNG.Topic_22_Find_Element.TC_01_FindElement.executor": "Run",
     "TestNG.Topic_22_Find_Element.TC_02_FindElements.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible.executor": "Run",
@@ -88,7 +92,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe">
+  <component name="RunManager" selected="TestNG.Topic_18_Handle_Windows_Tab.TC_03_SwitchToWindowTab">
     <configuration name="Topic_17_Fram_Iframe.TC_01_Example_With_Single_Iframe" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
@@ -100,24 +104,6 @@
       <option name="PACKAGE_NAME" value="webdriver" />
       <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Fram_Iframe" />
       <option name="METHOD_NAME" value="TC_01_Example_With_Single_Iframe" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_17_Fram_Iframe.TC_01_Url" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Fram_Iframe" />
-      <option name="METHOD_NAME" value="TC_01_Url" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_17_Fram_Iframe.TC_02_Logo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_18_Handle_Windows_Tab.TC_01_Basic_Form" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Fram_Iframe" />
-      <option name="METHOD_NAME" value="TC_02_Logo" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Handle_Windows_Tab" />
+      <option name="METHOD_NAME" value="TC_01_Basic_Form" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_27_Mix_Implicit_Explicit.TC_05_Mix" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_18_Handle_Windows_Tab.TC_03_Form" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
         <pattern>
@@ -170,8 +156,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_27_Mix_Implicit_Explicit" />
-      <option name="METHOD_NAME" value="TC_05_Mix" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Handle_Windows_Tab" />
+      <option name="METHOD_NAME" value="TC_03_Form" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_18_Handle_Windows_Tab.TC_03_SwitchToWindowTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Handle_Windows_Tab" />
+      <option name="METHOD_NAME" value="TC_03_SwitchToWindowTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -181,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe" />
+        <item itemvalue="TestNG.Topic_18_Handle_Windows_Tab.TC_03_SwitchToWindowTab" />
+        <item itemvalue="TestNG.Topic_18_Handle_Windows_Tab.TC_03_Form" />
+        <item itemvalue="TestNG.Topic_18_Handle_Windows_Tab.TC_01_Basic_Form" />
         <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_01_Example_With_Single_Iframe" />
-        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_01_Url" />
-        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_02_Logo" />
-        <item itemvalue="TestNG.Topic_27_Mix_Implicit_Explicit.TC_05_Mix" />
+        <item itemvalue="TestNG.Topic_17_Fram_Iframe.TC_02_Example_With_Multiple_Iframe" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717142707190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add topic 17 iframe">
+      <option name="closed" value="true" />
+      <created>1717752699687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717752699688</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +269,7 @@
     <MESSAGE value="add tcs 4,5 for topic 22" />
     <MESSAGE value="add topic 22, 23" />
     <MESSAGE value="add topic wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="add topic wait" />
+    <MESSAGE value="add topic 17 iframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="add topic 17 iframe" />
   </component>
 </project>
