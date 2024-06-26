@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 18 iframe">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_20_JavascriptExecutor.java" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add topic 20">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_21_UploadFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,8 @@
     "TestNG.Topic_20_JavascriptExecutor.TC_01_Url.executor": "Run",
     "TestNG.Topic_20_JavascriptExecutor.TC_02_Logo.executor": "Run",
     "TestNG.Topic_20_JavascriptExecutor.TC_03_Form.executor": "Run",
+    "TestNG.Topic_21_UploadFiles.TC_01_Url.executor": "Run",
+    "TestNG.Topic_21_UploadFiles.TC_02_Logo.executor": "Run",
     "TestNG.Topic_22_Find_Element.TC_01_FindElement.executor": "Run",
     "TestNG.Topic_22_Find_Element.TC_02_FindElements.executor": "Run",
     "TestNG.Topic_22_Wait_01_Element_Status.TC_01_Visible.executor": "Run",
@@ -94,43 +97,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_20_JavascriptExecutor.TC_03_Form">
-    <configuration name="Topic_18_Handle_Windows_Tab.TC_03_Form" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Handle_Windows_Tab" />
-      <option name="METHOD_NAME" value="TC_03_Form" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_18_Handle_Windows_Tab.TC_03_SwitchToWindowTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Handle_Windows_Tab" />
-      <option name="METHOD_NAME" value="TC_03_SwitchToWindowTab" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_21_UploadFiles.TC_02_Logo">
     <configuration name="Topic_20_JavascriptExecutor.TC_01_Url" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
@@ -185,13 +152,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_21_UploadFiles.TC_01_Url" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_21_UploadFiles" />
+      <option name="METHOD_NAME" value="TC_01_Url" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_21_UploadFiles.TC_02_Logo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_21_UploadFiles" />
+      <option name="METHOD_NAME" value="TC_02_Logo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_21_UploadFiles.TC_02_Logo" />
+        <item itemvalue="TestNG.Topic_21_UploadFiles.TC_01_Url" />
         <item itemvalue="TestNG.Topic_20_JavascriptExecutor.TC_03_Form" />
         <item itemvalue="TestNG.Topic_20_JavascriptExecutor.TC_02_Logo" />
         <item itemvalue="TestNG.Topic_20_JavascriptExecutor.TC_01_Url" />
-        <item itemvalue="TestNG.Topic_18_Handle_Windows_Tab.TC_03_SwitchToWindowTab" />
-        <item itemvalue="TestNG.Topic_18_Handle_Windows_Tab.TC_03_Form" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719307390332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add topic 20">
+      <option name="closed" value="true" />
+      <created>1719387782569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719387782569</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +292,7 @@
     <MESSAGE value="add topic wait" />
     <MESSAGE value="add topic 17 iframe" />
     <MESSAGE value="add topic 18 iframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="add topic 18 iframe" />
+    <MESSAGE value="add topic 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="add topic 20" />
   </component>
 </project>
