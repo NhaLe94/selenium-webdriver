@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/orangehrm" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/selenium" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/actions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/testcases" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
