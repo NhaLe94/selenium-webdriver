@@ -3,8 +3,16 @@
 <suite name="Selenium WebDriver">
 
     <test name="Run on Chrome browser">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.users.Level_03_Page_Object_Pattern"></class>
+            <class name="com.nopcommerce.users.Level_04_Multiple_Browser"></class>
+
+        </classes>
+    </test>
+    <test name="Run on Edg browser">
+        <parameter name="browser" value="edg"></parameter>
+        <classes>
+            <class name="com.nopcommerce.users.Level_04_Multiple_Browser"></class>
 
         </classes>
     </test>

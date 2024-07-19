@@ -5,32 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="update HomePageObject, LoginPageObject, RegisterPageObject,CustomerInfoPageObject&#10;add PageUIs: HomePageUI, LoginPageUI, RegisterPageUI, CustomerPageUI">
-      <change afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/CustomerInfoPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/HomePageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/LoginPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/RegisterPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/CustomerInfoPageObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/RegisterPageObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/CustomerInfoPageUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/HomePageUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/LoginPageUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/RegisterPageUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_04_Multiple_Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/CustomerInfoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/CustomerInfoPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-webdriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-webdriver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/CustomerInfoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/CustomerInfoPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/RegisterPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/RegisterPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721296561625</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update HomePageObject, LoginPageObject, RegisterPageObject,CustomerInfoPageObject&#10;add PageUIs: HomePageUI, LoginPageUI, RegisterPageUI, CustomerPageUI">
+      <option name="closed" value="true" />
+      <created>1721365447258</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721365447258</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
