@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add Level_04_Multiple_Browser">
-      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/CustomerInfoPageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/HomePageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/LoginPageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/RegisterPageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_05_Page_Factory.java" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add Level_05_Page_Factory">
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721375861845</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add Level_05_Page_Factory">
+      <option name="closed" value="true" />
+      <created>1721633503973</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721633503973</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,6 +364,7 @@
     <MESSAGE value="add PageObject" />
     <MESSAGE value="update HomePageObject, LoginPageObject, RegisterPageObject,CustomerInfoPageObject&#10;add PageUIs: HomePageUI, LoginPageUI, RegisterPageUI, CustomerPageUI" />
     <MESSAGE value="add Level_04_Multiple_Browser" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Level_04_Multiple_Browser" />
+    <MESSAGE value="add Level_05_Page_Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Level_05_Page_Factory" />
   </component>
 </project>
