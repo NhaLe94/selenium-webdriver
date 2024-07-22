@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="update HomePageObject, LoginPageObject, RegisterPageObject,CustomerInfoPageObject&#10;add PageUIs: HomePageUI, LoginPageUI, RegisterPageUI, CustomerPageUI">
-      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_04_Multiple_Browser.java" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add Level_04_Multiple_Browser">
+      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/CustomerInfoPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/HomePageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/LoginPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageFactorys/RegisterPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_05_Page_Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/CustomerInfoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/CustomerInfoPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/RegisterPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/RegisterPageObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +64,7 @@
     "TestNG.Level_02_BasePage_II_StaticMethod.executor": "Run",
     "TestNG.Level_02_BasePage_I_Int.executor": "Run",
     "TestNG.Level_02_BasePage_Int.User_01_Register.executor": "Run",
+    "TestNG.Level_05_Page_Factory.User_01_Register.executor": "Run",
     "TestNG.Topic_00_Template.executor": "Run",
     "TestNG.Topic_01_Check_Enviornment.executor": "Run",
     "TestNG.Topic_10_Custom_Dropdown.executor": "Run",
@@ -167,24 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level_02_BasePage_II_StaticMethod.User_01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nopcommerce.users.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nopcommerce.users" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.users.Level_02_BasePage_II_StaticMethod" />
-      <option name="METHOD_NAME" value="User_01_Register" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Level_02_BasePage_I_Int" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <extension name="coverage">
@@ -202,13 +183,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Level_05_Page_Factory.User_01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.users" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.users.Level_05_Page_Factory" />
+      <option name="METHOD_NAME" value="User_01_Register" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/testng.xml" />
+        <item itemvalue="TestNG.Level_05_Page_Factory.User_01_Register" />
         <item itemvalue="TestNG.Level_02_BasePage_III_Inheritance" />
         <item itemvalue="TestNG.Level_02_BasePage_II_StaticMethod" />
         <item itemvalue="TestNG.Level_02_BasePage_I_Int" />
-        <item itemvalue="TestNG.Level_02_BasePage_II_StaticMethod.User_01_Register" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721365447258</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add Level_04_Multiple_Browser">
+      <option name="closed" value="true" />
+      <created>1721375861845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721375861845</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,6 +358,7 @@
     <MESSAGE value="add BasePage class" />
     <MESSAGE value="add PageObject" />
     <MESSAGE value="update HomePageObject, LoginPageObject, RegisterPageObject,CustomerInfoPageObject&#10;add PageUIs: HomePageUI, LoginPageUI, RegisterPageUI, CustomerPageUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="update HomePageObject, LoginPageObject, RegisterPageObject,CustomerInfoPageObject&#10;add PageUIs: HomePageUI, LoginPageUI, RegisterPageUI, CustomerPageUI" />
+    <MESSAGE value="add Level_04_Multiple_Browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Level_04_Multiple_Browser" />
   </component>
 </project>
