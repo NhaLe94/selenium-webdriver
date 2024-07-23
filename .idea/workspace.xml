@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add Level_06_Page_Generator_03">
-      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_04_Multiple_Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_04_Multiple_Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_05_Page_Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_05_Page_Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_05_Page_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_05_Page_Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_03.java" afterDir="false" />
-    </list>
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="update Page_Generator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -354,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721642369921</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update Page_Generator">
+      <option name="closed" value="true" />
+      <created>1721726735503</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721726735503</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,6 +376,7 @@
     <MESSAGE value="add Level_04_Multiple_Browser" />
     <MESSAGE value="add Level_05_Page_Factory" />
     <MESSAGE value="add Level_06_Page_Generator_03" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Level_06_Page_Generator_03" />
+    <MESSAGE value="update Page_Generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Page_Generator" />
   </component>
 </project>
