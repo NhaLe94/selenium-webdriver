@@ -21,7 +21,7 @@ public class Level_03_Page_Object_Pattern extends BaseTest {
     private LoginPageObject loginPage;
     private RegisterPageObject registerPage;
     private CustomerInfoPageObject customerInfoPage;
-    private String firstName , lastName , email , password, companyName, day, month , year ;
+    private String firstName , lastName , emailAddress , password, companyName, day, month , year ;
 
 
     @BeforeClass
@@ -34,7 +34,7 @@ public class Level_03_Page_Object_Pattern extends BaseTest {
         homePage = new HomePageObject(driver);
         firstName = "Selenium";
         lastName = "Testing";
-        email = "nhale" + generateRandomNumber() + "@gmail.de";
+        emailAddress = "nhale" + generateRandomNumber() + "@gmail.de";
         password = "123456";
         companyName = "Building";
         day = "10";
@@ -52,23 +52,21 @@ public class Level_03_Page_Object_Pattern extends BaseTest {
         registerPage.selectDayDropdown(day);
         registerPage.selectMonthDropdown(month);
         registerPage.selectYearDropdown(year);
-        registerPage.enterToEmailTextbox(email);
+        registerPage.enterToEmailTextbox(emailAddress);
         registerPage.enterToCompanyNameTextbox(companyName);
         registerPage.enterToPasswordTextbox(password);
         registerPage.enterToConfirmPasswordTextbox(password);
         registerPage.clickToRegisterButton();
         Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
+        registerPage.clickToLogoutLink();
 
     }
 
     @Test
     public void User_02_Login() {
-        registerPage.clickToLogoutLink();
         registerPage.clickToLoginLink();
         loginPage = new LoginPageObject(driver);
-        loginPage.enterToEmailTextbox(email);
-        loginPage.enterToPasswordTextbox(password);
-        loginPage.clickToLoginButton();
+        loginPage.LoginToSystem(emailAddress, password);
         homePage = new HomePageObject(driver);
         Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 
@@ -85,7 +83,7 @@ public class Level_03_Page_Object_Pattern extends BaseTest {
         Assert.assertEquals(customerInfoPage.getMonthDropdownSelectedValue(),month);
         Assert.assertEquals(customerInfoPage.getYearDropdownSelectedValue(),year);
         Assert.assertEquals(customerInfoPage.getCompanyNameTextboxValue(),companyName);
-        Assert.assertEquals(customerInfoPage.getEmailTextboxValue(),email);
+        Assert.assertEquals(customerInfoPage.getEmailTextboxValue(),emailAddress);
 
     }
 

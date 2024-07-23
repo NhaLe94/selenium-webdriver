@@ -2,40 +2,34 @@ package com.nopcommerce.users;
 
 import commons.BaseTest;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageFactorys.CustomerInfoPageFactory;
-import pageFactorys.HomePageFactory;
-import pageFactorys.LoginPageFactory;
-import pageFactorys.RegisterPageFactory;
+import pageObjects.CustomerInfoPageObject;
+import pageObjects.HomePageObject;
+import pageObjects.LoginPageObject;
+import pageObjects.RegisterPageObject;
 
-
-import java.time.Duration;
-
-public class Level_05_Page_Factory extends BaseTest {
+public class Level_06_Page_Generator_01 extends BaseTest {
 
     private WebDriver driver;
-    private HomePageFactory homePage;
-    private LoginPageFactory loginPage;
-    private RegisterPageFactory registerPage;
-    private CustomerInfoPageFactory customerInfoPage;
-    private String firstName , lastName , email , password, companyName, day, month , year ;
+    private HomePageObject homePage;
+    private LoginPageObject loginPage;
+    private RegisterPageObject registerPage;
+    private CustomerInfoPageObject customerInfoPage;
+    private String firstName , lastName , emailAddress , password, companyName, day, month , year ;
 
-
+    @Parameters("browser")
     @BeforeClass
-    public void beforeClass() {
-        driver = new ChromeDriver();
+    public void beforeClass(String browserName) {
+        driver = getBrowserName(browserName);
 
-        driver.get("https://demo.nopcommerce.com/");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        homePage = new HomePageFactory(driver);
+        homePage = new HomePageObject(driver);
         firstName = "Selenium";
         lastName = "Testing";
-        email = "nhale" + generateRandomNumber() + "@gmail.de";
+        emailAddress = "nhale" + generateRandomNumber() + "@gmail.de";
         password = "123456";
         companyName = "Building";
         day = "10";
@@ -46,31 +40,29 @@ public class Level_05_Page_Factory extends BaseTest {
     @Test
     public void User_01_Register() {
         homePage.clickToRegisterLink();
-        registerPage = new RegisterPageFactory(driver);
+        registerPage = new RegisterPageObject(driver);
         registerPage.clickToMaleRadio();
         registerPage.enterToFirstNameTextbox(firstName);
         registerPage.enterToLastNameTextbox(lastName);
         registerPage.selectDayDropdown(day);
         registerPage.selectMonthDropdown(month);
         registerPage.selectYearDropdown(year);
-        registerPage.enterToEmailTextbox(email);
+        registerPage.enterToEmailTextbox(emailAddress);
         registerPage.enterToCompanyNameTextbox(companyName);
         registerPage.enterToPasswordTextbox(password);
         registerPage.enterToConfirmPasswordTextbox(password);
         registerPage.clickToRegisterButton();
         Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
         registerPage.clickToLogoutLink();
-
+        loginPage = new LoginPageObject(driver);
     }
 
     @Test
     public void User_02_Login() {
         registerPage.clickToLoginLink();
-        loginPage = new LoginPageFactory(driver);
-        loginPage.enterToEmailTextbox(email);
-        loginPage.enterToPasswordTextbox(password);
-        loginPage.clickToLoginButton();
-        homePage = new HomePageFactory(driver);
+        loginPage = new LoginPageObject(driver);
+        loginPage.LoginToSystem(emailAddress, password);
+        homePage = new HomePageObject(driver);
         Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 
 
@@ -78,7 +70,7 @@ public class Level_05_Page_Factory extends BaseTest {
     @Test
     public void User_03_MyAccount(){
         homePage.clickToMyAccountLink();
-        customerInfoPage = new CustomerInfoPageFactory(driver);
+        customerInfoPage = new CustomerInfoPageObject(driver);
         Assert.assertTrue(customerInfoPage.isGenderMaleSelected());
         Assert.assertEquals(customerInfoPage.getFirstNameTextboxValue(),firstName);
         Assert.assertEquals(customerInfoPage.getLastNameTextboxValue(),lastName);
@@ -86,7 +78,7 @@ public class Level_05_Page_Factory extends BaseTest {
         Assert.assertEquals(customerInfoPage.getMonthDropdownSelectedValue(),month);
         Assert.assertEquals(customerInfoPage.getYearDropdownSelectedValue(),year);
         Assert.assertEquals(customerInfoPage.getCompanyNameTextboxValue(),companyName);
-        Assert.assertEquals(customerInfoPage.getEmailTextboxValue(),email);
+        Assert.assertEquals(customerInfoPage.getEmailTextboxValue(),emailAddress);
 
     }
 

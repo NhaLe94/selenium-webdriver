@@ -5,7 +5,7 @@
     <test name="Run on Chrome browser">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.users.Level_05_Page_Factory"></class>
+            <class name="com.nopcommerce.users.Level_06_Page_Generator_03"></class>
 
         </classes>
     </test>
