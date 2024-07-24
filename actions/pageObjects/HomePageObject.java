@@ -21,7 +21,7 @@ public class HomePageObject extends BasePage {
         return isElementDisplayed(driver, HomePageUI.MY_ACCOUNT_LINK);
     }
 
-    public CustomerInfoPageObject clickToMyAccountLink() {
+    public CustomerInfoPageObject openCustomerInfo() {
         waitForElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
         clickToElementByAction(driver, HomePageUI.MY_ACCOUNT_LINK);
         return PageGenerator.getCustomerInfoPage(driver);

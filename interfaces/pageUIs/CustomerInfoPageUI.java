@@ -9,5 +9,6 @@ public class CustomerInfoPageUI {
     public static final String YEAR_DROPDOWN = "//select[@name='DateOfBirthYear']";
     public static final String EMAIL_TEXTBOX = "//input[@id='Email']";
     public static final String COMPANY_NAME_TEXTBOX = "//input[@id='Company']";
+    public static final String ADDRESS_LINK = "//div[contains(@class,'block-account-navigation')]//a[text()='Addresses']";
 
 }

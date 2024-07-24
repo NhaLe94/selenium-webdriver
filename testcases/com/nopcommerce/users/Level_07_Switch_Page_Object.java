@@ -2,36 +2,31 @@ package com.nopcommerce.users;
 
 import commons.BaseTest;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.*;
 
-import java.time.Duration;
-
-public class Level_03_Page_Object_Pattern extends BaseTest {
+public class Level_07_Switch_Page_Object extends BaseTest {
 
     private WebDriver driver;
     private HomePageObject homePage;
     private LoginPageObject loginPage;
     private RegisterPageObject registerPage;
     private CustomerInfoPageObject customerInfoPage;
+    private AddressPageObject addressPage;
+    private OrderPageObject orderPage;
+    private RewardPointPageObject rewardPointPage;
     private String firstName , lastName , emailAddress , password, companyName, day, month , year ;
 
-
+    @Parameters("browser")
     @BeforeClass
-    public void beforeClass() {
-        driver = new ChromeDriver();
+    public void beforeClass(String browserName) {
+        driver = getBrowserName(browserName);
 
-        driver.get("https://demo.nopcommerce.com/");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        homePage = new HomePageObject(driver);
+        homePage =  PageGenerator.getHomePage(driver);
         firstName = "Selenium";
         lastName = "Testing";
         emailAddress = "nhale" + generateRandomNumber() + "@gmail.de";
@@ -44,8 +39,7 @@ public class Level_03_Page_Object_Pattern extends BaseTest {
 
     @Test
     public void User_01_Register() {
-        homePage.clickToRegisterLink();
-        registerPage = new RegisterPageObject(driver);
+        registerPage = homePage.clickToRegisterLink();
         registerPage.clickToMaleRadio();
         registerPage.enterToFirstNameTextbox(firstName);
         registerPage.enterToLastNameTextbox(lastName);
@@ -59,18 +53,13 @@ public class Level_03_Page_Object_Pattern extends BaseTest {
         registerPage.clickToRegisterButton();
         Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
         registerPage.clickToLogoutLink();
-
     }
 
     @Test
     public void User_02_Login() {
-        registerPage.clickToLoginLink();
-        loginPage = new LoginPageObject(driver);
-        loginPage.LoginToSystem(emailAddress, password);
-        homePage = new HomePageObject(driver);
+        loginPage = registerPage.clickToLoginLink();
+        homePage= loginPage.LoginToSystem(emailAddress, password);
         Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-
-
     }
     @Test
     public void User_03_MyAccount(){
@@ -86,8 +75,14 @@ public class Level_03_Page_Object_Pattern extends BaseTest {
         Assert.assertEquals(customerInfoPage.getEmailTextboxValue(),emailAddress);
 
     }
-
-
+    @Test
+    public void User_04_Switch_Page(){
+        addressPage =customerInfoPage.openAddressPage(driver);
+        rewardPointPage = addressPage.openRewardPointPage(driver);
+        orderPage = rewardPointPage.openOrderPage(driver);
+        addressPage = orderPage.openAddressPage(driver);
+        customerInfoPage = addressPage.openCustomerInfoPage(driver);
+    }
     @AfterClass
     public void afterClass() {
 

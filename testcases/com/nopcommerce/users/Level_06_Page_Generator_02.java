@@ -64,7 +64,7 @@ public class Level_06_Page_Generator_02 extends BaseTest {
     }
     @Test
     public void User_03_MyAccount(){
-        customerInfoPage = homePage.clickToMyAccountLink();
+        customerInfoPage = homePage.openCustomerInfo();
         Assert.assertTrue(customerInfoPage.isGenderMaleSelected());
         Assert.assertEquals(customerInfoPage.getFirstNameTextboxValue(),firstName);
         Assert.assertEquals(customerInfoPage.getLastNameTextboxValue(),lastName);
