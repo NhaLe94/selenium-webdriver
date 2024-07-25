@@ -5,7 +5,7 @@
     <test name="Run on Chrome browser">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.users.Level_07_Switch_Page_Object"></class>
+            <class name="com.nopcommerce.users.Level_08_Page_Navigation"></class>
 
         </classes>
     </test>
