@@ -98,6 +98,22 @@ public class BasePage {
     public By getByXpath(String locator){
         return By.xpath(locator);
     }
+    public By getByLocator(String prefixLocator){
+        By by = null;
+        if(prefixLocator.startsWith("css") || prefixLocator.startsWith("CSS") || prefixLocator.startsWith("Css")){
+            by = By.cssSelector(prefixLocator.substring(4));
+        }
+        if(prefixLocator.startsWith("id") || prefixLocator.startsWith("ID") || prefixLocator.startsWith("Id")){
+            by = By.cssSelector(prefixLocator.substring(3));
+        }
+        if(prefixLocator.startsWith("name") || prefixLocator.startsWith("NAME") || prefixLocator.startsWith("Name")){
+            by = By.cssSelector(prefixLocator.substring(5));
+        }
+        if(prefixLocator.startsWith("xpath") || prefixLocator.startsWith("XPATH") || prefixLocator.startsWith("Xpath")){
+            by = By.cssSelector(prefixLocator.substring(6));
+        }
+        return by;
+    }
     public void clickToElement(WebDriver driver, String locator){
         getElement(driver,locator).click();
     }
