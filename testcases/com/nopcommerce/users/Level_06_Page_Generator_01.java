@@ -7,18 +7,18 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.users.UserCustomerInfoPageObject;
+import pageObjects.users.UserHomePageObject;
+import pageObjects.users.UserLoginPageObject;
+import pageObjects.users.UserRegisterPageObject;
 
 public class Level_06_Page_Generator_01 extends BaseTest {
 
     private WebDriver driver;
-    private HomePageObject homePage;
-    private LoginPageObject loginPage;
-    private RegisterPageObject registerPage;
-    private CustomerInfoPageObject customerInfoPage;
+    private UserHomePageObject homePage;
+    private UserLoginPageObject loginPage;
+    private UserRegisterPageObject registerPage;
+    private UserCustomerInfoPageObject customerInfoPage;
     private String firstName , lastName , emailAddress , password, companyName, day, month , year ;
 
     @Parameters("browser")
@@ -26,7 +26,7 @@ public class Level_06_Page_Generator_01 extends BaseTest {
     public void beforeClass(String browserName) {
         driver = getBrowserName(browserName);
 
-        homePage = new HomePageObject(driver);
+        homePage = new UserHomePageObject(driver);
         firstName = "Selenium";
         lastName = "Testing";
         emailAddress = "nhale" + generateRandomNumber() + "@gmail.de";
@@ -40,7 +40,7 @@ public class Level_06_Page_Generator_01 extends BaseTest {
     @Test
     public void User_01_Register() {
         homePage.clickToRegisterLink();
-        registerPage = new RegisterPageObject(driver);
+        registerPage = new UserRegisterPageObject(driver);
         registerPage.clickToMaleRadio();
         registerPage.enterToFirstNameTextbox(firstName);
         registerPage.enterToLastNameTextbox(lastName);
@@ -54,15 +54,15 @@ public class Level_06_Page_Generator_01 extends BaseTest {
         registerPage.clickToRegisterButton();
         Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
         registerPage.clickToLogoutLink();
-        loginPage = new LoginPageObject(driver);
+        loginPage = new UserLoginPageObject(driver);
     }
 
     @Test
     public void User_02_Login() {
         registerPage.clickToLoginLink();
-        loginPage = new LoginPageObject(driver);
+        loginPage = new UserLoginPageObject(driver);
         loginPage.LoginToSystem(emailAddress, password);
-        homePage = new HomePageObject(driver);
+        homePage = new UserHomePageObject(driver);
         Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 
 
@@ -70,7 +70,7 @@ public class Level_06_Page_Generator_01 extends BaseTest {
     @Test
     public void User_03_MyAccount(){
         homePage.openCustomerInfo();
-        customerInfoPage = new CustomerInfoPageObject(driver);
+        customerInfoPage = new UserCustomerInfoPageObject(driver);
         Assert.assertTrue(customerInfoPage.isGenderMaleSelected());
         Assert.assertEquals(customerInfoPage.getFirstNameTextboxValue(),firstName);
         Assert.assertEquals(customerInfoPage.getLastNameTextboxValue(),lastName);

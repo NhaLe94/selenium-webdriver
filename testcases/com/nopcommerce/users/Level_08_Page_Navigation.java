@@ -8,17 +8,18 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.*;
+import pageObjects.users.*;
 
 public class Level_08_Page_Navigation extends BaseTest {
 
     private WebDriver driver;
-    private HomePageObject homePage;
-    private LoginPageObject loginPage;
-    private RegisterPageObject registerPage;
-    private CustomerInfoPageObject customerInfoPage;
-    private AddressPageObject addressPage;
-    private OrderPageObject orderPage;
-    private RewardPointPageObject rewardPointPage;
+    private UserHomePageObject homePage;
+    private UserLoginPageObject loginPage;
+    private UserRegisterPageObject registerPage;
+    private UserCustomerInfoPageObject customerInfoPage;
+    private UserAddressPageObject addressPage;
+    private UserOrderPageObject orderPage;
+    private UserRewardPointPageObject rewardPointPage;
     private String firstName , lastName , emailAddress , password, companyName, day, month , year ;
 
     @Parameters("browser")
@@ -64,7 +65,7 @@ public class Level_08_Page_Navigation extends BaseTest {
     @Test
     public void User_03_MyAccount(){
         homePage.openCustomerInfo();
-        customerInfoPage = new CustomerInfoPageObject(driver);
+        customerInfoPage = new UserCustomerInfoPageObject(driver);
         Assert.assertTrue(customerInfoPage.isGenderMaleSelected());
         Assert.assertEquals(customerInfoPage.getFirstNameTextboxValue(),firstName);
         Assert.assertEquals(customerInfoPage.getLastNameTextboxValue(),lastName);

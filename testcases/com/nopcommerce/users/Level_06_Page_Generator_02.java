@@ -7,18 +7,18 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.users.UserCustomerInfoPageObject;
+import pageObjects.users.UserHomePageObject;
+import pageObjects.users.UserLoginPageObject;
+import pageObjects.users.UserRegisterPageObject;
 
 public class Level_06_Page_Generator_02 extends BaseTest {
 
     private WebDriver driver;
-    private HomePageObject homePage;
-    private LoginPageObject loginPage;
-    private RegisterPageObject registerPage;
-    private CustomerInfoPageObject customerInfoPage;
+    private UserHomePageObject homePage;
+    private UserLoginPageObject loginPage;
+    private UserRegisterPageObject registerPage;
+    private UserCustomerInfoPageObject customerInfoPage;
     private String firstName , lastName , emailAddress , password, companyName, day, month , year ;
 
     @Parameters("browser")
@@ -26,7 +26,7 @@ public class Level_06_Page_Generator_02 extends BaseTest {
     public void beforeClass(String browserName) {
         driver = getBrowserName(browserName);
 
-        homePage = new HomePageObject(driver);
+        homePage = new UserHomePageObject(driver);
         firstName = "Selenium";
         lastName = "Testing";
         emailAddress = "nhale" + generateRandomNumber() + "@gmail.de";
@@ -53,7 +53,7 @@ public class Level_06_Page_Generator_02 extends BaseTest {
         registerPage.clickToRegisterButton();
         Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
         registerPage.clickToLogoutLink();
-        loginPage = new LoginPageObject(driver);
+        loginPage = new UserLoginPageObject(driver);
     }
 
     @Test

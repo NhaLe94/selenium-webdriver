@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Selenium WebDriver">
+    <parameter name="userUrl" value="https://demo.nopcommerce.com/"></parameter>
+    <parameter name="adminUrl" value="https://admin-demo.nopcommerce.com/"></parameter>
 
     <test name="Run on Chrome browser">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.users.Level_08_Page_Navigation"></class>
+            <class name="com.nopcommerce.users.Level_09_Switch_Site_Url"></class>
 
         </classes>
     </test>
-
 
 </suite>

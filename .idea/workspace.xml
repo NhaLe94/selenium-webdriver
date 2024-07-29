@@ -4,16 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="update Page_Generator">
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/SideBarPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/SideBarPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_08_Page_Navigation.java" afterDir="false" />
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="add Level_08_Page_Navigation">
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/admin/AdminDashboardPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/admin/AdminLoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/admin/AdminDashboardPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/admin/AdminLoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_09_Switch_Site_Url.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/AddressPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/AddressPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/CustomerInfoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/CustomerInfoPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/OrderPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/OrderPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/RewardPointPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/RewardPointPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageFactorys/CustomerInfoPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageFactorys/CustomerInfoPageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageFactorys/HomePageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageFactorys/HomePageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageFactorys/RegisterPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageFactorys/RegisterPageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/AddressPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserAddressPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/CustomerInfoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserCustomerInfoPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserHomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserLoginPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/OrderPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserOrderPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserRegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/RewardPointPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserRewardPointPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/SideBarPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserSideBarPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/AddressPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserAddressPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/CustomerInfoPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserCustomerInfoPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserHomePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/LoginPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserLoginPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/OrderPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserOrderPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/RegisterPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRegisterPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/RewardPointPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRewardPointPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/SideBarPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserSideBarPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_04_Multiple_Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_04_Multiple_Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_07_Switch_Page_Object.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_07_Switch_Page_Object.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_08_Page_Navigation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_08_Page_Navigation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageFactorys/CustomerInfoPageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageFactorys/CustomerInfoPageFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageFactorys/HomePageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageFactorys/HomePageFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageFactorys/RegisterPageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageFactorys/RegisterPageFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/AddressPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/CustomerInfoPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/HomePageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/LoginPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/OrderPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/PageGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/PageGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/RegisterPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/RewardPointPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/SideBarPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/AddressPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/CustomerInfoPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/HomePageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/LoginPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/OrderPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/RegisterPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/RewardPointPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/SideBarPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_04_Multiple_Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_04_Multiple_Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_07_Switch_Page_Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_07_Switch_Page_Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_08_Page_Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_08_Page_Navigation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +173,7 @@
       <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pageObjects.admin" />
       <recent name="com.nopcommerce.users" />
       <recent name="pageUIs" />
       <recent name="pageObjects" />
@@ -375,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721811358981</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add Level_08_Page_Navigation">
+      <option name="closed" value="true" />
+      <created>1721894973524</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721894973524</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,6 +469,7 @@
     <MESSAGE value="add Level_05_Page_Factory" />
     <MESSAGE value="add Level_06_Page_Generator_03" />
     <MESSAGE value="update Page_Generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Page_Generator" />
+    <MESSAGE value="add Level_08_Page_Navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Level_08_Page_Navigation" />
   </component>
 </project>
