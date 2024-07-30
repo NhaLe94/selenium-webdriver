@@ -90,7 +90,7 @@ public class BasePage {
         driver.switchTo().window(parentID);
     }
     public WebElement getElement(WebDriver driver, String locator){
-        return driver.findElement(getByXpath(locator));
+        return driver.findElement(getByLocator(locator));
     }
     public List<WebElement> getListElement(WebDriver driver, String locator){
         return driver.findElements(getByXpath(locator));
@@ -100,17 +100,26 @@ public class BasePage {
     }
     public By getByLocator(String prefixLocator){
         By by = null;
-        if(prefixLocator.startsWith("css") || prefixLocator.startsWith("CSS") || prefixLocator.startsWith("Css")){
+        if(prefixLocator.startsWith("css") || prefixLocator.startsWith("Css") || prefixLocator.startsWith("CSS")){
             by = By.cssSelector(prefixLocator.substring(4));
         }
-        if(prefixLocator.startsWith("id") || prefixLocator.startsWith("ID") || prefixLocator.startsWith("Id")){
-            by = By.cssSelector(prefixLocator.substring(3));
+        else if(prefixLocator.startsWith("id") || prefixLocator.startsWith("Id") || prefixLocator.startsWith("ID")){
+            by = By.id(prefixLocator.substring(3));
         }
-        if(prefixLocator.startsWith("name") || prefixLocator.startsWith("NAME") || prefixLocator.startsWith("Name")){
-            by = By.cssSelector(prefixLocator.substring(5));
+        else if(prefixLocator.startsWith("name") || prefixLocator.startsWith("Name") || prefixLocator.startsWith("NAME")){
+            by = By.name(prefixLocator.substring(5));
         }
-        if(prefixLocator.startsWith("xpath") || prefixLocator.startsWith("XPATH") || prefixLocator.startsWith("Xpath")){
-            by = By.cssSelector(prefixLocator.substring(6));
+        else if(prefixLocator.startsWith("tagname") || prefixLocator.startsWith("Tagname") || prefixLocator.startsWith("TAGNAME")){
+            by = By.tagName(prefixLocator.substring(8));
+        }
+        else if(prefixLocator.startsWith("xpath") || prefixLocator.startsWith("Xpath") || prefixLocator.startsWith("XPATH")){
+            by = By.xpath(prefixLocator.substring(6));
+        }
+        else if(prefixLocator.startsWith("class") || prefixLocator.startsWith("Class") || prefixLocator.startsWith("CLASS")){
+            by = By.className(prefixLocator.substring(6));
+        }
+         else {
+            throw  new RuntimeException("Locator type is not support");
         }
         return by;
     }
@@ -277,13 +286,13 @@ public class BasePage {
         new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
     }
     public void waitForElementClickable(WebDriver driver, String locator){
-        new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
+        new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.elementToBeClickable(getByLocator(locator)));
     }
     public void waitForElementVisible(WebDriver driver, String locator){
-        new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
+        new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locator)));
     }
     public void waitForElementSelected(WebDriver driver, String locator){
-        new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.elementToBeSelected(getByXpath(locator)));
+        new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.elementToBeSelected(getByLocator(locator)));
     }
     public UserAddressPageObject openAddressPage(WebDriver driver) {
         waitForElementClickable(driver, BasePageUI.ADDRESS_LINK);
