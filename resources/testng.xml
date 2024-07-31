@@ -7,7 +7,7 @@
     <test name="Run on Chrome browser">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.users.Level_09_Switch_Site_Url"></class>
+            <class name="com.nopcommerce.users.Level_10_Dynamic_Locator"></class>
 
         </classes>
     </test>
