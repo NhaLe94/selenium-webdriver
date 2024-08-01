@@ -7,8 +7,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.*;
-import pageObjects.users.*;
+import pageObjects.nopecomerce.PageGenerator;
+import pageObjects.nopecomerce.users.*;
+
 
 public class Level_08_Page_Navigation extends BaseTest {
 

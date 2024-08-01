@@ -7,8 +7,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.PageGenerator;
-import pageObjects.users.*;
+import pageObjects.nopecomerce.PageGenerator;
+import pageObjects.nopecomerce.users.*;
+import pageObjects.nopecomerce.users.*;
 
 public class Level_10_Dynamic_Locator extends BaseTest {
 
@@ -77,12 +78,27 @@ public class Level_10_Dynamic_Locator extends BaseTest {
 
     }
     @Test
-    public void User_04_Switch_Page(){
+    public void User_04_Dynamic_Page(){
         addressPage =(UserAddressPageObject) customerInfoPage.openSidebarLinkByPageName("Addresses");
         rewardPointPage =(UserRewardPointPageObject) addressPage.openSidebarLinkByPageName("Reward points");
         orderPage =(UserOrderPageObject) rewardPointPage.openSidebarLinkByPageName("Orders");
         addressPage = (UserAddressPageObject) orderPage.openSidebarLinkByPageName("Addresses");
         customerInfoPage =(UserCustomerInfoPageObject) addressPage.openSidebarLinkByPageName("Customer info");
+    }
+
+    public void User_05_Switch_Page(){
+        customerInfoPage.openSidebarLinkByPageNames("Addresses");
+        addressPage = PageGenerator.getAddressPage(driver);
+
+        addressPage.openSidebarLinkByPageNames("Reward points");
+        rewardPointPage = PageGenerator.getRewardPoint(driver);
+
+        rewardPointPage.openSidebarLinkByPageNames("Orders");
+        orderPage = PageGenerator.getOrderPage(driver);
+
+      //  addressPage.openSidebarLinkByPageNames("Customer info");
+       // orderPage.openSidebarLinkByPageNames("Addresses");
+
     }
     @AfterClass
     public void afterClass() {

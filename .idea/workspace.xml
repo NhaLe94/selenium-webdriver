@@ -5,12 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="update BasePage.java">
-      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_10_Dynamic_Locator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/jquery/HomePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/jquery/PageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/jquery/HomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/datatable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_11_DataTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserSideBarPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserSideBarPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserSideBarPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserSideBarPageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/PageGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/admin/AdminDashboardPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/admin/AdminDashboardPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/admin/AdminLoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/admin/AdminLoginPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserAddressPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserAddressPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserCustomerInfoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserCustomerInfoPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserHomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserHomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserLoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserLoginPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserOrderPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserOrderPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserRegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserRegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserRewardPointPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserRewardPointPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserSideBarPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserSideBarPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/BasePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/BasePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/admin/AdminDashboardPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/admin/AdminDashboardPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/admin/AdminLoginPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/admin/AdminLoginPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserAddressPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserAddressPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserCustomerInfoPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserCustomerInfoPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserHomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserHomePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserLoginPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserLoginPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserOrderPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserOrderPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRegisterPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserRegisterPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRewardPointPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserRewardPointPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserSideBarPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserSideBarPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_03_Page_Object_Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_04_Multiple_Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_04_Multiple_Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_06_Page_Generator_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_07_Switch_Page_Object.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_07_Switch_Page_Object.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_08_Page_Navigation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_08_Page_Navigation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_09_Switch_Site_Url.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_09_Switch_Site_Url.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_10_Dynamic_Locator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_10_Dynamic_Locator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/PageGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/admin/AdminDashboardPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/admin/AdminLoginPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserAddressPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserCustomerInfoPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserHomePageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserLoginPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserOrderPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserRegisterPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserRewardPointPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/users/UserSideBarPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_03_Page_Object_Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_04_Multiple_Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_04_Multiple_Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_06_Page_Generator_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_07_Switch_Page_Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_07_Switch_Page_Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_08_Page_Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_08_Page_Navigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_09_Switch_Site_Url.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_09_Switch_Site_Url.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_10_Dynamic_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_10_Dynamic_Locator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +112,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml.executor": "Run",
     "TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/testng.xml.executor": "Run",
     "TestNG.Level_02_BasePage_III_Inheritance.executor": "Run",
     "TestNG.Level_02_BasePage_II_StaticMethod.User_01_Register.executor": "Run",
@@ -100,7 +157,7 @@
     "TestNG.Topic_27_Mix_Implicit_Explicit.TC_05_Mix.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/uploadFiles",
+    "last_opened_file_path": "C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -109,6 +166,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\resources" />
       <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\uploadFiles" />
       <recent name="C:\Users\Nha Le\Desktop\Nha\Selenium\selenium-webdriver\browserDrivers" />
     </key>
@@ -123,7 +181,17 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml">
+    <configuration name="C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/datatable.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/testng.xml" />
@@ -144,23 +212,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.nopcommerce.users" />
       <option name="MAIN_CLASS_NAME" value="com.nopcommerce.users.Level_02_BasePage_III_Inheritance" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Level_02_BasePage_II_StaticMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nopcommerce.users.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nopcommerce.users" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.users.Level_02_BasePage_II_StaticMethod" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -205,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml" />
         <item itemvalue="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/testng.xml" />
         <item itemvalue="TestNG.Topic_00_Template" />
         <item itemvalue="TestNG.Level_05_Page_Factory.User_01_Register" />
         <item itemvalue="TestNG.Level_02_BasePage_III_Inheritance" />
-        <item itemvalue="TestNG.Level_02_BasePage_II_StaticMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722247049409</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update BasePage.java">
+      <option name="closed" value="true" />
+      <created>1722419629014</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722419629014</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,16 +491,5 @@
     <MESSAGE value="add Level_09_Switch_Site_Url" />
     <MESSAGE value="update BasePage.java" />
     <option name="LAST_COMMIT_MESSAGE" value="update BasePage.java" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/actions/commons/BasePage.java</url>
-          <line>318</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

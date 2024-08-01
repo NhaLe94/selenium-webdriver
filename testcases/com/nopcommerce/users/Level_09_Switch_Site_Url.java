@@ -7,10 +7,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.*;
-import pageObjects.admin.AdminDashboardPO;
-import pageObjects.admin.AdminLoginPO;
-import pageObjects.users.*;
+import pageObjects.nopecomerce.PageGenerator;
+import pageObjects.nopecomerce.admin.AdminDashboardPO;
+import pageObjects.nopecomerce.admin.AdminLoginPO;
+import pageObjects.nopecomerce.users.*;
+
 
 public class Level_09_Switch_Site_Url extends BaseTest {
     private  String userUrl, adminUrl;
