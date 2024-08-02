@@ -92,9 +92,13 @@ public class BasePage {
     public WebElement getElement(WebDriver driver, String locator){
         return driver.findElement(getByLocator(locator));
     }
-    public List<WebElement> getListElement(WebDriver driver, String locator){
-        return driver.findElements(getByXpath(locator));
+    protected List<WebElement> getListElement(WebDriver driver, String locator){
+        return driver.findElements(getByLocator(locator));
     }
+    protected List<WebElement> getListElement(WebDriver driver, String locator, String... restParameter){
+        return driver.findElements(getByLocator(castParameter(locator, restParameter)));
+    }
+
     public By getByXpath(String locator){
         return By.xpath(locator);
     }
@@ -136,7 +140,7 @@ public class BasePage {
     public void sendkeyToElement(WebDriver driver, String locator, String key){
         getElement(driver,locator).sendKeys(key);
     }
-    public void sendkeyToElement(WebDriver driver, String locator,String key, String restParameter){
+    public void sendkeyToElement(WebDriver driver, String locator,String key, String... restParameter){
         getElement(driver,castParameter(locator, restParameter)).clear();
         getElement(driver,castParameter(locator, restParameter)).sendKeys(key);
     }
@@ -144,7 +148,7 @@ public class BasePage {
     public void selectItemInDropdown(WebDriver driver, String locator, String item){
         new Select(getElement(driver,locator)).selectByVisibleText(item);
     }
-    public void selectItemInDropdown(WebDriver driver, String locator, String item, String restParameter){
+    public void selectItemInDropdown(WebDriver driver, String locator, String item, String... restParameter){
         new Select(getElement(driver,castParameter(locator, restParameter))).selectByVisibleText(item);
     }
     public String getSelectItemInDropdown(WebDriver driver, String locator){

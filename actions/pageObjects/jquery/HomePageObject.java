@@ -48,4 +48,22 @@ public class HomePageObject extends BasePage {
         sleepSeconds(2);
 
     }
+
+    public void clickToLoadDataButton() {
+        waitForElementClickable(driver, HomePageUI.DYNAMIC_LOAD_DATA_BUTTON);
+        clickToElement(driver, HomePageUI.DYNAMIC_LOAD_DATA_BUTTON);
+    }
+
+    public void enterToTextboxByIndex(String rowIndex, String columnName, String valueToSendkey) {
+        int columnIndexNumber = getListElement(driver, HomePageUI.DYNAMIC_PRECEDING_SIBLING_COLUMN_NUMBER, columnName).size() + 1;
+        String colunmIndex = String.valueOf(columnIndexNumber);
+        sendkeyToElement(driver, HomePageUI.DYNAMIC_TEXTBOX_BY_ROW_AND_COLUMN_INDEX,valueToSendkey, rowIndex, colunmIndex);
+
+    }
+
+    public void selectToDropdownByIndex(String rowIndex, String columnName, String valueToSelect) {
+        int columnIndexNumber = getListElement(driver, HomePageUI.DYNAMIC_PRECEDING_SIBLING_COLUMN_NUMBER, columnName).size() + 1;
+        String colunmIndex = String.valueOf(columnIndexNumber);
+        selectItemInDropdown(driver, HomePageUI.DYNAMIC_DROPDOWN_BY_ROW_AND_COLUMN_INDEX,valueToSelect, rowIndex, colunmIndex);
+    }
 }

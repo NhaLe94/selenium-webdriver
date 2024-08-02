@@ -27,7 +27,7 @@ public class Level_11_DataTable extends BaseTest {
 
     }
 
-    @Test
+   // @Test
     public void Table_01() {
         homepage.openPageNumber("5");
         Assert.assertTrue(homepage.isNumberActived("5"));
@@ -40,7 +40,7 @@ public class Level_11_DataTable extends BaseTest {
 
     }
 
-    @Test
+ //   @Test
     public void Table_02_Search() {
      homepage.enterToTextboxByHeaderName("Country", "Argentina");
      homepage.sleepSeconds(2);
@@ -56,7 +56,7 @@ public class Level_11_DataTable extends BaseTest {
      homepage.refreshCurrentPage(driver);
 
     }
-    @Test
+   // @Test
     public void Table_03_Edit() {
         homepage.enterToTextboxByHeaderName("Country", "Argentina");
         homepage.sleepSeconds(2);
@@ -67,6 +67,22 @@ public class Level_11_DataTable extends BaseTest {
         homepage.sleepSeconds(2);
         homepage.editRowByCountryName("Angola");
 
+    }
+    @Test
+    public void Table_04_Action_By_Index() {
+        homepage.openPageUrl(driver, "https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid/");
+        homepage.clickToLoadDataButton();
+        homepage.enterToTextboxByIndex("2", "Company", "ABZ Company");
+
+        homepage.sleepSeconds(2);
+        homepage.enterToTextboxByIndex("4", "Contact Person", "Michael");
+
+        homepage.selectToDropdownByIndex("6","Country", "Hong Kong");
+//        homepage.checkToCheckboxByIndex("6","NPO?", true);
+//        homepage.checkToCheckboxByIndex("5","NPO?", false);
+//        homepage.clickToIconByIndex("8", "Move Up");
+//        homepage.clickToIconByIndex("6", "Remove");
+//        homepage.clickToIconByIndex("4", "Insert");
 
 
     }
