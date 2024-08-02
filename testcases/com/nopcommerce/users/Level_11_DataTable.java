@@ -35,13 +35,42 @@ public class Level_11_DataTable extends BaseTest {
         Assert.assertTrue(homepage.isNumberActived("10"));
         homepage.openPageNumber("8");
         Assert.assertTrue(homepage.isNumberActived("8"));
+        homepage.openPageNumber("1");
+        Assert.assertTrue(homepage.isNumberActived("1"));
 
     }
 
     @Test
-    public void Table_02() {
+    public void Table_02_Search() {
+     homepage.enterToTextboxByHeaderName("Country", "Argentina");
+     homepage.sleepSeconds(2);
+     Assert.assertTrue(homepage.isRowDataValueDisplayed("338282", "Argentina", "349238", "687522"));
+     homepage.refreshCurrentPage(driver);
+     homepage.enterToTextboxByHeaderName("Males", "803");
+     homepage.sleepSeconds(2);
+     Assert.assertTrue(homepage.isRowDataValueDisplayed("777", "Antigua and Barbuda", "803", "1580"));
+     homepage.refreshCurrentPage(driver);
+     homepage.enterToTextboxByHeaderName("Females", "384187");
+     homepage.sleepSeconds(2);
+     Assert.assertTrue(homepage.isRowDataValueDisplayed("384187", "Afghanistan", "407124", "791312"));
+     homepage.refreshCurrentPage(driver);
 
     }
+    @Test
+    public void Table_03_Edit() {
+        homepage.enterToTextboxByHeaderName("Country", "Argentina");
+        homepage.sleepSeconds(2);
+        homepage.deleteRowByCountryName("Argentina");
+        homepage.refreshCurrentPage(driver);
+
+        homepage.enterToTextboxByHeaderName("Country", "Angola");
+        homepage.sleepSeconds(2);
+        homepage.editRowByCountryName("Angola");
+
+
+
+    }
+
 
     @AfterClass
     public void afterClass() {
