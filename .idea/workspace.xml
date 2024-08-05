@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="handle table: search, edit, delete, verify">
+    <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="handle table: edit, select, remove row">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/pageObjects/jquery/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/jquery/HomePageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/jquery/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/jquery/HomePageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_11_DataTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/com/nopcommerce/users/Level_11_DataTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/jquery/HomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/jquery/HomePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/jquery/HomePageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/jquery/HomePageUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_11_DataTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_11_DataTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -420,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722574254875</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="handle table: edit, select, remove row">
+      <option name="closed" value="true" />
+      <created>1722588832259</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722588832259</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,6 +459,7 @@
     <MESSAGE value="update BasePage.java" />
     <MESSAGE value="dynamic table" />
     <MESSAGE value="handle table: search, edit, delete, verify" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle table: search, edit, delete, verify" />
+    <MESSAGE value="handle table: edit, select, remove row" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle table: edit, select, remove row" />
   </component>
 </project>

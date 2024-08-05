@@ -15,4 +15,9 @@ public class HomePageUI {
     public static final String DYNAMIC_PRECEDING_SIBLING_COLUMN_NUMBER ="xpath=//th[text()='%s']/preceding-sibling::th";
     public static final String DYNAMIC_TEXTBOX_BY_ROW_AND_COLUMN_INDEX ="xpath=//tr[%s]/td[%s]/input";
     public static final String DYNAMIC_DROPDOWN_BY_ROW_AND_COLUMN_INDEX ="xpath=//tr[%s]/td[%s]//select";
+    public static final String DYNAMIC_CHECKBOX_BY_ROW_AND_COLUMN_INDEX ="xpath=//tr[%s]/td[%s]//input[@type='checkbox']";
+    public static final String DYNAMIC_ICON_BY_ROW_INDEX ="xpath=//tr[%s]/td//button[starts-with(@title,'%s')]";
+
+    public static final String DYNAMIC_PRECEDING_SIBLING_COLUMN_NUMBER_2 ="xpath=//div[text()='%s']/ancestor::th/preceding-sibling::th";
+    public static final String ALL_VALUE_BY_COLUMN_INDEX ="xpath=//td[%s]";
 }

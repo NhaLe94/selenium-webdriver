@@ -66,9 +66,15 @@ public class Level_11_DataTable extends BaseTest {
         homepage.enterToTextboxByHeaderName("Country", "Angola");
         homepage.sleepSeconds(2);
         homepage.editRowByCountryName("Angola");
-
     }
     @Test
+    public void Table_04_Get_All_Value_Row_Or_Column() {
+        homepage.getAllValueAtColumnName("Country");
+        homepage.getAllValueAtColumnName("Females");
+
+
+    }
+   // @Test
     public void Table_04_Action_By_Index() {
         homepage.openPageUrl(driver, "https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid/");
         homepage.clickToLoadDataButton();
@@ -78,11 +84,11 @@ public class Level_11_DataTable extends BaseTest {
         homepage.enterToTextboxByIndex("4", "Contact Person", "Michael");
 
         homepage.selectToDropdownByIndex("6","Country", "Hong Kong");
-//        homepage.checkToCheckboxByIndex("6","NPO?", true);
-//        homepage.checkToCheckboxByIndex("5","NPO?", false);
-//        homepage.clickToIconByIndex("8", "Move Up");
-//        homepage.clickToIconByIndex("6", "Remove");
-//        homepage.clickToIconByIndex("4", "Insert");
+        homepage.checkToCheckboxByIndex("6","NPO?", true);
+        homepage.checkToCheckboxByIndex("5","NPO?", false);
+        homepage.clickToIconByIndex("8", "Move Up");
+        homepage.clickToIconByIndex("6", "Remove");
+        homepage.clickToIconByIndex("4", "Insert");
 
 
     }

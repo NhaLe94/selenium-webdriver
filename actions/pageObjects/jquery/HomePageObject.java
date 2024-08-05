@@ -3,7 +3,11 @@ package pageObjects.jquery;
 import commons.BasePage;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import pageUIs.jquery.HomePageUI;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class HomePageObject extends BasePage {
     WebDriver driver;
@@ -65,5 +69,33 @@ public class HomePageObject extends BasePage {
         int columnIndexNumber = getListElement(driver, HomePageUI.DYNAMIC_PRECEDING_SIBLING_COLUMN_NUMBER, columnName).size() + 1;
         String colunmIndex = String.valueOf(columnIndexNumber);
         selectItemInDropdown(driver, HomePageUI.DYNAMIC_DROPDOWN_BY_ROW_AND_COLUMN_INDEX,valueToSelect, rowIndex, colunmIndex);
+    }
+
+    public void checkToCheckboxByIndex(String rowIndex, String columnName, boolean checkOrUncheck) {
+        int columnIndexNumber = getListElement(driver, HomePageUI.DYNAMIC_PRECEDING_SIBLING_COLUMN_NUMBER, columnName).size() + 1;
+        String colunmIndex = String.valueOf(columnIndexNumber);
+        if(checkOrUncheck){
+            checkToCheckboxRadio(driver, HomePageUI.DYNAMIC_CHECKBOX_BY_ROW_AND_COLUMN_INDEX, rowIndex, colunmIndex);
+        }else {
+            uncheckToCheckboxRadio(driver, HomePageUI.DYNAMIC_CHECKBOX_BY_ROW_AND_COLUMN_INDEX, rowIndex, colunmIndex);
+        }
+
+    }
+
+    public void clickToIconByIndex(String rowIndex, String iconName) {
+        waitForElementClickable(driver, HomePageUI.DYNAMIC_ICON_BY_ROW_INDEX, rowIndex, iconName);
+        clickToElement(driver, HomePageUI.DYNAMIC_ICON_BY_ROW_INDEX, rowIndex, iconName);
+    }
+
+    public List<String> getAllValueAtColumnName(String columnName) {
+        int columnIndexNumber = getListElement(driver, HomePageUI.DYNAMIC_PRECEDING_SIBLING_COLUMN_NUMBER_2, columnName).size() + 1;
+        String colunmIndex = String.valueOf(columnIndexNumber);
+       List<WebElement> allvalue = getListElement(driver, HomePageUI.ALL_VALUE_BY_COLUMN_INDEX, colunmIndex);
+       List<String> allTextValue = new ArrayList<>();
+       for(WebElement element: allvalue){
+           allTextValue.add(element.getText());
+       }
+       return allTextValue;
+
     }
 }
