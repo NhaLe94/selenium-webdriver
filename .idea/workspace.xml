@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b804c0-2a10-4f96-bac3-a7ee33b24443" name="Changes" comment="handle table: edit, select, remove row">
+      <change afterPath="$PROJECT_DIR$/actions/commons/MethodListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/VerificationFailures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_13_Assert_Verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_14_Verify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/jquery/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/jquery/HomePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/jquery/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/jquery/HomePageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_11_DataTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/users/Level_11_DataTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserRegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/nopecomerce/users/UserRegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserRegisterPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/nopCommerce/users/UserRegisterPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/commons/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/nopecomerce/users/UserRegisterPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageObjects/nopecomerce/users/UserRegisterPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/nopCommerce/users/UserRegisterPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/pageUIs/nopCommerce/users/UserRegisterPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-webdriver/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-webdriver/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +132,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/testng.xml">
     <configuration name="C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/datatable.xml" />
@@ -199,8 +207,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml" />
         <item itemvalue="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/Nha Le/Desktop/Nha/Selenium/selenium-webdriver/resources/datatable.xml" />
         <item itemvalue="TestNG.Topic_00_Template" />
         <item itemvalue="TestNG.Level_05_Page_Factory.User_01_Register" />
         <item itemvalue="TestNG.Level_02_BasePage_III_Inheritance" />
@@ -424,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722588832259</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="handle table: edit, select, remove row">
+      <option name="closed" value="true" />
+      <created>1722850485201</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722850485201</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

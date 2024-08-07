@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Selenium WebDriver">
+    <listeners>
+        <listener class-name="commons.MethodListener"></listener>
+    </listeners>
+
     <parameter name="userUrl" value="https://demo.nopcommerce.com/"></parameter>
     <parameter name="adminUrl" value="https://admin-demo.nopcommerce.com/"></parameter>
 
     <test name="Run on Chrome browser">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.users.Level_10_Dynamic_Locator"></class>
+            <class name="com.nopcommerce.users.Level_14_Verify"></class>
 
         </classes>
     </test>
